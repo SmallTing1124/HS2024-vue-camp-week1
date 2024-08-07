@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'/',
+  base:'/HS2024-vue-camp-week1/',
   plugins: [
     vue(),
     vueDevTools(),
