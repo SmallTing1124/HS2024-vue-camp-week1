@@ -37,7 +37,7 @@ const text = ref('一段文字');
         </thead>
         <tbody>
             <tr v-for="(item, key) in drinkMenu" v-bind="item.id">
-                {{ console.log(item) }}
+                <td><small>{{ item.name }}</small></td>
                 <td><small>{{ item.des }}</small></td>
                 <td>{{ item.price }}</td>
                 <td>
